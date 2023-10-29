@@ -1,4 +1,4 @@
-.navbar, :root, .foot{
+.navbar, :root, .foot, .Proj-main-div{
   background-color: #222831 !important;
   color: white !important;
 }
@@ -10,3 +10,5 @@
 .nav-cont{
   margin-left: 1000px !important;
 }
+
+.Proj-main-div{}
