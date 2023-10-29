@@ -1,6 +1,6 @@
 function Certificates() {
   return (
-    <div>Certificates</div>
+    <div> These are Certificates</div>
   )
 }
 
