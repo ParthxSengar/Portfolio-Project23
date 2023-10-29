@@ -1,0 +1,4 @@
+.bg-body-tertiary, .navbar, .navbar-expand-lg, .navbar-light {
+  background-color: green !important;
+  border: 10px !important;
+}
