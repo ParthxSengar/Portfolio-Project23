@@ -1,7 +1,7 @@
-function certificates() {
+function Certificates() {
   return (
-    <div>certificates</div>
+    <div>Certificates</div>
   )
 }
 
-export default certificates
+export default Certificates
