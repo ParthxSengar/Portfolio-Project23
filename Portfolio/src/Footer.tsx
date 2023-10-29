@@ -1,7 +1,7 @@
-function footer() {
+function Footer() {
   return (
-    <div>footer</div>
+    <div className="Navigation">footer</div>
   )
 }
 
-export default footer
+export default Footer
