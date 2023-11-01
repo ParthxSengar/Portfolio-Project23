@@ -1,4 +1,21 @@
-.bg-body-tertiary, .navbar, .navbar-expand-lg, .navbar-light {
-  background-color: green !important;
-  border: 10px !important;
+
+
+.navbar, :root, .foot, .Proj-main-div{
+  background-color: #222831 !important;
+  color: white !important;
 }
+
+.navbar:hover{
+  background-color: black !important;
+}
+
+.nav-cont{
+  margin-left: 1000px !important;
+}
+
+.navbox{
+  border-radius: 50000px;
+}
+
+
+
