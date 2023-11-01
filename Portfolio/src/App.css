@@ -1,13 +1,21 @@
-.navbar, :root, .foot, .Proj-main-div ,.intro-main-div{
-  background-color: #222831 !important;
+.navbar, :root, .foot, .Proj-main-div {
+  background-color: rgb(4, 0, 14) !important;
   color: white !important;
   
 }
-.intro-main-div{
-  height: 600px;
+.intro-div{
+  height: 500px;
+  background-color: black !important;
   font-size: 100px;
   text-align: center;
   padding-top: 90px;
+  background-image: url(https://64.media.tumblr.com/0cf21ea6d3e47016f5adccf1b03234f6/62588c15a00fa48f-cb/s400x600/9040d34ef1b65c33b51a5308c3cd257b60b50b23.gif); 
+    background-repeat: repeat; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+}
+.intro-main-div{
+  background-color: rgb(4, 0, 14);
 }
 
 
