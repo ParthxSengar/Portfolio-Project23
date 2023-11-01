@@ -23,5 +23,14 @@
   background-color: black !important;
 }
 
+.proj1, .proj2{
+  color: white;
+}
+
+.proj-container{
+  background-color: #222831 !important;
+  height: 100px;
+  text-align: center;
+}
 
 
