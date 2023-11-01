@@ -1,7 +1,9 @@
 function Introduction() {
   return (
-    <div>Introduction</div>
-  )
+    <div>
+      <div className="intro-main-div"> Web Developer</div>
+    </div>
+  );
 }
 
-export default Introduction
+export default Introduction;
