@@ -10,14 +10,14 @@ function Projects() {
       <Container>
         <Row>
           <Col className="proj1">
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
+            <Card style={{ width: "18rem" }} className="proj1-card">
+              <Card.Img variant="top" src="https://i0.wp.com/www.spielanime.com/wp-content/uploads/2023/08/Do-Joyboy-or-Sun-God-Nika-take-over-Luffys-body-and-mind-when-he-is-using-Gear-5.png?resize=1024%2C576&ssl=1" />
               <Card.Body>
                 <Card.Title>Project 1</Card.Title>
                 <Card.Text>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed repellendus, mollitia incidunt delectus temporibus rem consequatur hic fugit molestiae amet aspernatur iusto nam.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Button variant="primary">Read more</Button>
               </Card.Body>
             </Card>
           </Col>
