@@ -1,8 +1,15 @@
-.navbar, :root, .foot, .Proj-main-div{
+.navbar, :root, .foot, .Proj-main-div ,.intro-main-div{
   background-color: #222831 !important;
   color: white !important;
-
+  
 }
+.intro-main-div{
+  height: 600px;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 90px;
+}
+
 
 .nav-cont{
   margin-left: 960px !important;
