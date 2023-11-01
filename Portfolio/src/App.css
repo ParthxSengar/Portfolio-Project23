@@ -11,8 +11,9 @@
   margin-left: 1000px !important;
 }
 
-.navbox{
-  border-radius: 50000px;
+.navbox:hover{
+  border-radius: 10px;
+  border: solid 2px grey;
 }
 
 .Proj-main-div{
