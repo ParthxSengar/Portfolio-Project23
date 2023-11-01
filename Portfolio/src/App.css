@@ -9,18 +9,18 @@
   text-align: center;
   padding-top: 90px;
 }
-.navbar:hover{
-  background-color: black !important;
-}
+
 
 .nav-cont{
-  margin-left: 1000px !important;
+  margin-left: 960px !important;
 
 }
 
 .navbox:hover{
   border-radius: 10px;
-  border: solid 2px grey;
+  border: solid 1px grey;
+  padding: 5px;
+  background-color: black !important;
 }
 
 
