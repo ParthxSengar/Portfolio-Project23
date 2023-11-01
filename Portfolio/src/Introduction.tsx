@@ -1,7 +1,7 @@
 function Introduction() {
   return (
-    <div>
-      <div className="intro-main-div"> Web Developer</div>
+    <div className="intro-main-div">
+      <div className="intro-div"> Web Developer</div>
     </div>
   );
 }
