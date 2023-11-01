@@ -1,6 +1,7 @@
 .navbar, :root, .foot, .Proj-main-div{
   background-color: #222831 !important;
   color: white !important;
+  
 }
 
 .navbar:hover{
@@ -9,6 +10,7 @@
 
 .nav-cont{
   margin-left: 1000px !important;
+
 }
 
 .navbox:hover{
