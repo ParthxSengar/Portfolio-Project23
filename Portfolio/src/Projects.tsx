@@ -11,9 +11,9 @@ function Projects() {
         <Row>
           <Col className="proj1">
             <Card style={{ width: "18rem" }} className="proj1-card">
-              <Card.Img variant="top" src="https://i0.wp.com/www.spielanime.com/wp-content/uploads/2023/08/Do-Joyboy-or-Sun-God-Nika-take-over-Luffys-body-and-mind-when-he-is-using-Gear-5.png?resize=1024%2C576&ssl=1" />
+              <Card.Img variant="top" src="https://academy.avast.com/hubfs/New_Avast_Academy/what_is_a_keylogger_academy_a1_refresh/What-is-a-keylogger-04.svg" />
               <Card.Body>
-                <Card.Title>Project 1</Card.Title>
+                <Card.Title className="proj-title"><b>Advanced Keylogger</b></Card.Title>
                 <Card.Text>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed repellendus, mollitia incidunt delectus temporibus rem consequatur hic fugit molestiae amet aspernatur iusto nam.
                 </Card.Text>
@@ -21,7 +21,18 @@ function Projects() {
               </Card.Body>
             </Card>
           </Col>
-          <Col className="proj2">Project 2</Col>
+          <Col className="proj2">
+          <Card style={{ width: "18rem" }} className="proj1-card">
+              <Card.Img variant="top" src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs11042-022-12461-7/MediaObjects/11042_2022_12461_Fig2_HTML.png" />
+              <Card.Body>
+                <Card.Title className="proj-title"><b>Plant disease detector</b></Card.Title>
+                <Card.Text>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed repellendus, mollitia incidunt delectus temporibus rem consequatur hic fugit molestiae amet aspernatur iusto nam.
+                </Card.Text>
+                <Button variant="primary">Read more</Button>
+              </Card.Body>
+            </Card>
+          </Col>
         </Row>
       </Container>
     </div>

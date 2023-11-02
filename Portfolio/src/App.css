@@ -3,7 +3,28 @@
   color: white !important;
   
 }
+
+@keyframes bounce{
+  0%,
+  20%,
+  50%,
+  80%,
+  100%{
+    transform: translateY(0);
+  }
+
+  40%{
+    transform: translateY(-30px);
+  }
+
+  60%{
+    transform: translateY(-15px);
+  }
+}
+
 .intro-div{
+  animation: bounce 1s;
+  animation-delay: 1s;
   height: 500px;
   background-color: black !important;
   font-size: 100px;
@@ -18,21 +39,46 @@
   background-color: rgb(4, 0, 14);
 }
 
+@keyframes slideinleft { /*This animation is used to slide the contents from left to right*/
+  from{
+    transform: translateX(-500px);
+  }
+  to{
+    transform: translateX(0);
+  }
+}
+
+
 
 .nav-cont{
   margin-left: 960px !important;
-
+  animation: slideinleft 1s ease-in !important;
+  animation-delay: 1s;
 }
+
 
 .navbox:hover{
   border-radius: 10px;
   border: solid 1px grey;
   padding: 5px;
-  background-color: #000000 !important;
+  background-color: white !important;
+  font-weight: bold;
+  color: black;
 }
 
-.proj1, .proj2{
+
+
+.proj1:hover, .proj2:hover{
   color: white;
+  animation: bounce 2s;
+}
+
+.proj2{
+  padding-left: 200px;
+}
+
+.proj1{
+  padding-left: 100px;
 }
 
 .proj-container{
@@ -41,4 +87,7 @@
   text-align: center;
 }
 
+.proj-title:hover{
+  animation: bounce 2s;
+}
 
