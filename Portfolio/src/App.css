@@ -87,7 +87,18 @@
   text-align: center;
 }
 
+.proj-title{
+  color: white;
+}
+
 .proj-title:hover{
   animation: bounce 2s;
 }
 
+.card-body{
+  background-color: rgb(4, 0, 14) !important;
+}
+
+.card-text{
+  color: white;
+}

@@ -15,7 +15,7 @@ function Projects() {
               <Card.Body>
                 <Card.Title className="proj-title"><b>Advanced Keylogger</b></Card.Title>
                 <Card.Text>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed repellendus, mollitia incidunt delectus temporibus rem consequatur hic fugit molestiae amet aspernatur iusto nam.
+                  <i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed repellendus, mollitia incidunt delectus temporibus rem consequatur hic fugit molestiae amet aspernatur iusto nam.</i>
                 </Card.Text>
                 <Button variant="primary">Read more</Button>
               </Card.Body>
@@ -27,7 +27,7 @@ function Projects() {
               <Card.Body>
                 <Card.Title className="proj-title"><b>Plant disease detector</b></Card.Title>
                 <Card.Text>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed repellendus, mollitia incidunt delectus temporibus rem consequatur hic fugit molestiae amet aspernatur iusto nam.
+                  <i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed repellendus, mollitia incidunt delectus temporibus rem consequatur hic fugit molestiae amet aspernatur iusto nam.</i>
                 </Card.Text>
                 <Button variant="primary">Read more</Button>
               </Card.Body>
