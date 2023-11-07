@@ -4,6 +4,7 @@
   
 }
 
+
 @keyframes bounce{ /*This animation is used to make the contents bounce*/
   0%,
   20%,
@@ -19,6 +20,23 @@
 
   60%{
     transform: translateY(-15px);
+  }
+}
+@keyframes slideinleft { /*This animation is used to slide the contents from left to right*/
+  from{
+    transform: translateX(-500px);
+  }
+  to{
+    transform: translateX(0);
+  }
+}
+
+@keyframes fade{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
   }
 }
 
@@ -39,14 +57,6 @@
   background-color: rgb(4, 0, 14);
 }
 
-@keyframes slideinleft { /*This animation is used to slide the contents from left to right*/
-  from{
-    transform: translateX(-500px);
-  }
-  to{
-    transform: translateX(0);
-  }
-}
 
 
 .nav-cont{
@@ -78,8 +88,13 @@
   text-align: center;
 }
 
+.proj1-card, .proj2-card{
+  animation: fade linear;
+  animation-timeline: view();
+}
+
 .proj-title{
-  color: white;
+  color: black;
 }
 
 .proj-title:hover{
@@ -87,9 +102,9 @@
 }
 
 .card-body{
-  background-color: rgb(4, 0, 14) !important;
+    background-color: white;
 }
 
 .card-text{
-  color: white;
+  color: black;
 }
