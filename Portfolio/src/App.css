@@ -93,19 +93,6 @@
   animation-timeline: view();
 }
 
-.card1-body{
-  background-image: url();
-  width: 100%;
-  height: 100%;
-  top: 0;
-  right: 0;
-  position: absolute;
-  backdrop-filter: blur(5px);
-}
-
-.proj-title, .card-text{
-
-}
 
 .proj-title{
   color: black;
