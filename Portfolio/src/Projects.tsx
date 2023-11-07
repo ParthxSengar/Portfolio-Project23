@@ -9,7 +9,7 @@ function Projects() {
     <div className="proj-container">
       <Container>
         <Row>
-          <Col className="proj1">
+          <Col className="proj1" xs={12} md={6} lg={4}>
             <Card style={{ width: "18rem" }} className="proj1-card">
               <Card.Img variant="top" src="https://academy.avast.com/hubfs/New_Avast_Academy/what_is_a_keylogger_academy_a1_refresh/What-is-a-keylogger-04.svg" />
               <Card.Body>
@@ -21,7 +21,7 @@ function Projects() {
               </Card.Body>
             </Card>
           </Col>
-          <Col className="proj2">
+          <Col className="proj2" xs={12} md={6} lg={4}>
           <Card style={{ width: "18rem" }} className="proj1-card">
               <Card.Img variant="top" src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs11042-022-12461-7/MediaObjects/11042_2022_12461_Fig2_HTML.png" />
               <Card.Body>
