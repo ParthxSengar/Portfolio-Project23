@@ -4,6 +4,7 @@
   
 }
 
+/* Animations */
 
 @keyframes bounce{ /*This animation is used to make the contents bounce*/
   0%,
@@ -25,9 +26,11 @@
 @keyframes slideinleft { /*This animation is used to slide the contents from left to right*/
   from{
     transform: translateX(-500px);
+    opacity: 0.5;
   }
   to{
     transform: translateX(0);
+    opacity: 1;
   }
 }
 
@@ -40,10 +43,39 @@
   }
 }
 
+@keyframes grow-and-shrink {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes floating {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 15px); }
+  to   { transform: translate(0, -0px); }    
+}
+
+@keyframes rotation {
+  0%{
+    transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg);
+  }
+  100%{
+    transform: rotateX(0deg) rotateY(3600deg) rotateZ(0deg);
+  }
+}
+
+/* CSS for introduction  */
+
 .intro-div{
-  animation: bounce 1s;
+  text-align: left !important;
+  margin-left: 50px !important;
+  animation: rotation 4ss ease-in;
   animation-delay: 1s;
-  height: 500px;
+  height: 600px;
   background-color: black !important;
   font-size: 100px;
   text-align: center;
@@ -55,9 +87,18 @@
 }
 .intro-main-div{
   background-color: rgb(4, 0, 14);
+  height: 1000px !important;
 }
 
+.intro-img{
+  animation: floating 3s ease-in;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  margin-left: 50px;
+  margin-top: 50px;
+}
 
+/* CSS for Navigation bar */
 
 .nav-cont{
   margin-left: 960px !important;
@@ -76,10 +117,11 @@
 }
 
 
+/* CSS for Projects */
 
 .proj1-card:hover, .proj2-card:hover{
   color: white;
-  animation: bounce 2s;
+  animation: grow-and-shrink 2s ease-in;
 }
 
 .proj-container{
@@ -89,17 +131,13 @@
 }
 
 .proj1-card, .proj2-card{
-  animation: fade linear;
+  animation: fade ease-in;
   animation-timeline: view();
 }
 
 
 .proj-title{
   color: black;
-}
-
-.proj-title:hover{
-  animation: bounce 2s;
 }
 
 .card-body{
