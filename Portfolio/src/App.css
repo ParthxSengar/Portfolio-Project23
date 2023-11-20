@@ -44,8 +44,7 @@
 }
 
 @keyframes grow-and-shrink {
-  0%,
-  100% {
+  0%{
     transform: scale(1);
   }
   50% {
